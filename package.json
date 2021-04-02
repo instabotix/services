@@ -1,17 +1,21 @@
 {
   "name": "commentbot-api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Time 24 do Brasa Hacks 2021",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.3",
-    "nodemon": "^2.0.7"
+    "cors": "~2.8.5",
+    "express": "~4.17.1",
+    "mongoose": "~5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "~2.0.7"
   }
 }
