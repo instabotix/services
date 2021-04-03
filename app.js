@@ -3,8 +3,6 @@
 const express = require('express');
 const app = express();
 
-// Testando novo repo
-
 
 // O cors permite compartilhar recursos entre diferentes endereços http
 const cors = require('cors');

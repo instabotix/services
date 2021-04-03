@@ -1,3 +1,3 @@
-# Comment API
+# Product Finder
 
-> Um bot para ser conectado com o Instagram e a plataforma da VTEX. 
+> Um microsserviço que cataloga os produtos mostrados nas mídias do Instagram.
