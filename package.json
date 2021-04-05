@@ -2,15 +2,16 @@
   "name": "services",
   "version": "0.1.0",
   "description": "Microsserviços essenciais para o Instabotx",
-  "main": "app.js",
+  "main": "productFinder.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon productFinder.js",
+    "start": "node productFinder.js"
   },
   "author": "Time 24 do Brasa Hacks 2021 da trilha VTEX",
   "dependencies": {
     "cors": "~2.8.5",
     "express": "~4.17.1",
+    "instagram-private-api": "^1.44.0",
     "mongoose": "~5.12.3"
   },
   "devDependencies": {
