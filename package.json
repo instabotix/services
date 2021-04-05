@@ -12,6 +12,7 @@
     "cors": "~2.8.5",
     "express": "~4.17.1",
     "instagram-private-api": "^1.44.0",
+    "instagram-web-api": "^2.2.2",
     "mongoose": "~5.12.3"
   },
   "devDependencies": {

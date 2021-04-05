@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 // Obtendo as variáveis de ambiente
-const MONGOBD_URL = process.env.MONGOBD_URL;
+const MONGOBD_URL = process.env.MONGODB_URL;
 const [ username, password ] = [process.env.INSTAGRAM_USERNAME, process.env.INSTAGRAM_PASSWORD];
 
 
@@ -31,7 +31,7 @@ const Comentarios = mongoose.model('Comentarios', comentarioSchema);
 const client = new Instagram({username, password});
 
 (async () => {
-    // await client.login();
+    await client.login();
     const atividade = await client.getActivity();
     const notificacoes = atividade.activity_feed.edge_web_activity_feed.edges;
 
@@ -52,10 +52,10 @@ const client = new Instagram({username, password});
                                 usuario: notificacao.node.user.username,
                                 nome_completo: notificacao.node.user.full_name
                             },
-                            media:  notificacao.node.media.shortcode,
-                            texto: notificacao.node.text
-                        };
-                        return comentario;
+                            media_id:  notificacao.node.media.shortcode,
+                            comentario: notificacao.node.text
+                        }
+                        console.log(comentario);
                     });
                 }
             });
