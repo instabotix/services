@@ -18,4 +18,4 @@ Versão atual: [v0.1.0]
 
 - [ ] Suporte para múltiplas lojas
 
-[v0.1.0]: https://github.com/instabotix/product-finder/releases/tag/v0.1.0
+[v0.1.0]: https://github.com/instabotix/services/releases/tag/v0.1.0

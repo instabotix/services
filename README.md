@@ -1,3 +1,3 @@
-# Product Finder
+# Services
 
-> Um microsserviço que cataloga os produtos mostrados nas mídias do Instagram.
+> Microsserviços essenciais para o Instabotx.

@@ -1,15 +1,13 @@
 {
-  "name": "commentbot-api",
+  "name": "services",
   "version": "0.1.0",
-  "description": "",
+  "description": "Microsserviços essenciais para o Instabotx",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "Time 24 do Brasa Hacks 2021",
-  "license": "ISC",
+  "author": "Time 24 do Brasa Hacks 2021 da trilha VTEX",
   "dependencies": {
     "cors": "~2.8.5",
     "express": "~4.17.1",

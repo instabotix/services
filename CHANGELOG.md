@@ -14,5 +14,5 @@ e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Rotas `GET`, `POST`, `PUT` e `DELETE` para `mídias`
 - Conexão com banco de dados
 
-[Não publicado]: https://github.com/instabotix/product-finder/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/instabotix/product-finder/releases/tag/v0.1.0
+[Não publicado]: https://github.com/instabotix/services/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/instabotix/services/releases/tag/v0.1.0
